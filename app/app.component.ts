@@ -1,7 +1,11 @@
 import { Component } from '@angular/core';
 
+
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+    templateUrl:'app/home.html',
+    
 })
-export class AppComponent { }
+export class AppComponent {
+    date: Date = new Date();
+ }
